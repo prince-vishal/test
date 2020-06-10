@@ -30,6 +30,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    '~/plugins/vuex-orm'
   ],
   /*
   ** Nuxt.js dev-modules
@@ -46,7 +47,7 @@ export default {
   ],
 
   axios: {
-    proxy: true
+    proxy: false
   },
 
   proxy: {

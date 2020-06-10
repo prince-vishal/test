@@ -1,42 +1,47 @@
 <template>
   <div class="container">
-    <div>
-      <logo/>
-      <h1 class="title">
-        Testing CORS
-      </h1>
-      <h2 class="subtitle" v-if="data!=null">Response from API</h2>
-      <pre  v-if="data!=null" >
-        {{data}}
-      </pre>
+    <div class="row">
+        <h3>Users</h3>
+        <ul>
+          <li class="card" v-for="item in items">
 
-      <div class="links">
-        <button
-          class="button--green" @click="testApi"
-        >
-          Test API
-        </button>
-      </div>
+          </li>
+        </ul>
     </div>
   </div>
 </template>
 
 <script>
   import Logo from '~/components/Logo.vue'
+  import {mapState} from 'vuex'
+  import User from '~/data/models/user'
 
   export default {
     components: {
       Logo
+    },
+    computed: {
+      ...mapState('entities/users')
     },
     data() {
       return {
         data: null
       }
     },
+    async created() {
+      let data = await this.fetchUsers();
+      console.log(data);
+      User.create(data);
+    },
     methods: {
       async testApi() {
         // Normal usage with axios
         this.data = (await this.$axios.get('https://ouv6ogvlzj.execute-api.us-east-2.amazonaws.com/v1/')).data;
+      },
+      async fetchUsers() {
+        // Normal usage with axios
+        let data = (await this.$axios.get('http://localhost:5000/users')).data;
+        return data;
       }
     }
   }

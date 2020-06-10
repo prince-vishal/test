@@ -1,0 +1,326 @@
+{
+  "groups": [
+    {
+      "gpoNumber": "G09310",
+      "businessName": "ACME Neal-Leonard",
+      "firstName": "Daniel",
+      "lastName": "Robinson",
+      "phoneNumber": "6087297186",
+      "currentLocalOffice": "FL0903150",
+      "businessState": "SC"
+    },
+    {
+      "gpoNumber": "S31167",
+      "businessName": "ACME Dudley-Davidson",
+      "firstName": "Phyllis",
+      "lastName": "Torres",
+      "phoneNumber": "8256020097",
+      "currentLocalOffice": "AZ6199369",
+      "businessState": "WY"
+    },
+    {
+      "gpoNumber": "V50310",
+      "businessName": "ACME Wood-Richards",
+      "firstName": "Chris",
+      "lastName": "Quinn",
+      "phoneNumber": "7588510792",
+      "currentLocalOffice": "OH5477407",
+      "businessState": "MD"
+    },
+    {
+      "gpoNumber": "K93333",
+      "businessName": "ACME Bennett-Patel",
+      "firstName": "Joseph",
+      "lastName": "Miles",
+      "phoneNumber": "8801779442",
+      "currentLocalOffice": "MD5878096",
+      "businessState": "TX"
+    },
+    {
+      "gpoNumber": "F33864",
+      "businessName": "ACME Mcneil-Cantu",
+      "firstName": "Carla",
+      "lastName": "Tapia",
+      "phoneNumber": "0819303177",
+      "currentLocalOffice": "AL0382247",
+      "businessState": "NY"
+    },
+    {
+      "gpoNumber": "C97014",
+      "businessName": "ACME Rodgers, Bailey and Thomas",
+      "firstName": "Edward",
+      "lastName": "Clements",
+      "phoneNumber": "3025716132",
+      "currentLocalOffice": "NJ4025366",
+      "businessState": "KY"
+    },
+    {
+      "gpoNumber": "A61664",
+      "businessName": "ACME Robinson, Anthony and Harrison",
+      "firstName": "Brandy",
+      "lastName": "Mcdonald",
+      "phoneNumber": "6846192760",
+      "currentLocalOffice": "WV2459693",
+      "businessState": "NC"
+    },
+    {
+      "gpoNumber": "V94068",
+      "businessName": "ACME Lang-Cox",
+      "firstName": "Angel",
+      "lastName": "Kennedy",
+      "phoneNumber": "7273165080",
+      "currentLocalOffice": "KS4381917",
+      "businessState": "DC"
+    },
+    {
+      "gpoNumber": "M14216",
+      "businessName": "ACME Watson LLC",
+      "firstName": "Richard",
+      "lastName": "Austin",
+      "phoneNumber": "2815328433",
+      "currentLocalOffice": "NJ9386133",
+      "businessState": "ID"
+    },
+    {
+      "gpoNumber": "C94989",
+      "businessName": "ACME Watson, Collins and Smith",
+      "firstName": "Lori",
+      "lastName": "Bolton",
+      "phoneNumber": "3978325082",
+      "currentLocalOffice": "MD2876396",
+      "businessState": "UT"
+    },
+    {
+      "gpoNumber": "V19841",
+      "businessName": "ACME Kelly Ltd",
+      "firstName": "Jason",
+      "lastName": "Kirby",
+      "phoneNumber": "5468824332",
+      "currentLocalOffice": "SD0640894",
+      "businessState": "WY"
+    },
+    {
+      "gpoNumber": "M91636",
+      "businessName": "ACME Hernandez PLC",
+      "firstName": "Cole",
+      "lastName": "Fuentes",
+      "phoneNumber": "5891294292",
+      "currentLocalOffice": "WI6618229",
+      "businessState": "GA"
+    },
+    {
+      "gpoNumber": "U09991",
+      "businessName": "ACME Davis and Sons",
+      "firstName": "Alexis",
+      "lastName": "Garcia",
+      "phoneNumber": "2251612261",
+      "currentLocalOffice": "WI9019489",
+      "businessState": "NV"
+    },
+    {
+      "gpoNumber": "Q18475",
+      "businessName": "ACME Kane-Hayes",
+      "firstName": "Vincent",
+      "lastName": "Gray",
+      "phoneNumber": "7700455105",
+      "currentLocalOffice": "RI0220626",
+      "businessState": "GA"
+    },
+    {
+      "gpoNumber": "S66274",
+      "businessName": "ACME Osborn and Sons",
+      "firstName": "Shelly",
+      "lastName": "Olson",
+      "phoneNumber": "9630392871",
+      "currentLocalOffice": "OK5993834",
+      "businessState": "CO"
+    },
+    {
+      "gpoNumber": "V65641",
+      "businessName": "ACME Duran Inc",
+      "firstName": "Dennis",
+      "lastName": "Smith",
+      "phoneNumber": "5388396351",
+      "currentLocalOffice": "AZ4092061",
+      "businessState": "KY"
+    },
+    {
+      "gpoNumber": "F14964",
+      "businessName": "ACME Johnson and Sons",
+      "firstName": "Miranda",
+      "lastName": "Clark",
+      "phoneNumber": "8169721798",
+      "currentLocalOffice": "TN0510588",
+      "businessState": "TN"
+    },
+    {
+      "gpoNumber": "A78370",
+      "businessName": "ACME Morton and Sons",
+      "firstName": "Amanda",
+      "lastName": "Schneider",
+      "phoneNumber": "0513463953",
+      "currentLocalOffice": "CO4690356",
+      "businessState": "CT"
+    },
+    {
+      "gpoNumber": "P31414",
+      "businessName": "ACME Wilson, Graham and Carter",
+      "firstName": "Scott",
+      "lastName": "Mitchell",
+      "phoneNumber": "4761879202",
+      "currentLocalOffice": "MS2053329",
+      "businessState": "WI"
+    },
+    {
+      "gpoNumber": "U49655",
+      "businessName": "ACME Poole LLC",
+      "firstName": "David",
+      "lastName": "Anderson",
+      "phoneNumber": "3922832660",
+      "currentLocalOffice": "NM9505986",
+      "businessState": "MA"
+    }
+  ],
+  "users": [
+    {
+      "user_id": "amorgan",
+      "hasMarketing": "N",
+      "hasNewBusinessUnderwriting": "N",
+      "hasInquiryOnly": "N",
+      "hasAdmin": "Y"
+    },
+    {
+      "user_id": "dwillia",
+      "hasMarketing": "Y",
+      "hasNewBusinessUnderwriting": "Y",
+      "hasInquiryOnly": "Y",
+      "hasAdmin": "N"
+    },
+    {
+      "user_id": "kdavis",
+      "hasMarketing": "N",
+      "hasNewBusinessUnderwriting": "N",
+      "hasInquiryOnly": "Y",
+      "hasAdmin": "Y"
+    },
+    {
+      "user_id": "bking",
+      "hasMarketing": "Y",
+      "hasNewBusinessUnderwriting": "N",
+      "hasInquiryOnly": "Y",
+      "hasAdmin": "Y"
+    },
+    {
+      "user_id": "mmarks",
+      "hasMarketing": "Y",
+      "hasNewBusinessUnderwriting": "N",
+      "hasInquiryOnly": "N",
+      "hasAdmin": "N"
+    },
+    {
+      "user_id": "mpeters",
+      "hasMarketing": "Y",
+      "hasNewBusinessUnderwriting": "Y",
+      "hasInquiryOnly": "N",
+      "hasAdmin": "N"
+    },
+    {
+      "user_id": "bhill",
+      "hasMarketing": "Y",
+      "hasNewBusinessUnderwriting": "Y",
+      "hasInquiryOnly": "N",
+      "hasAdmin": "N"
+    },
+    {
+      "user_id": "jdean",
+      "hasMarketing": "N",
+      "hasNewBusinessUnderwriting": "Y",
+      "hasInquiryOnly": "N",
+      "hasAdmin": "N"
+    },
+    {
+      "user_id": "bharvey",
+      "hasMarketing": "N",
+      "hasNewBusinessUnderwriting": "Y",
+      "hasInquiryOnly": "Y",
+      "hasAdmin": "N"
+    },
+    {
+      "user_id": "jmccull",
+      "hasMarketing": "N",
+      "hasNewBusinessUnderwriting": "N",
+      "hasInquiryOnly": "Y",
+      "hasAdmin": "Y"
+    },
+    {
+      "user_id": "msanche",
+      "hasMarketing": "N",
+      "hasNewBusinessUnderwriting": "Y",
+      "hasInquiryOnly": "N",
+      "hasAdmin": "N"
+    },
+    {
+      "user_id": "vcole",
+      "hasMarketing": "N",
+      "hasNewBusinessUnderwriting": "N",
+      "hasInquiryOnly": "Y",
+      "hasAdmin": "Y"
+    },
+    {
+      "user_id": "asims",
+      "hasMarketing": "N",
+      "hasNewBusinessUnderwriting": "Y",
+      "hasInquiryOnly": "N",
+      "hasAdmin": "Y"
+    },
+    {
+      "user_id": "bmiller",
+      "hasMarketing": "N",
+      "hasNewBusinessUnderwriting": "N",
+      "hasInquiryOnly": "N",
+      "hasAdmin": "N"
+    },
+    {
+      "user_id": "psteven",
+      "hasMarketing": "N",
+      "hasNewBusinessUnderwriting": "Y",
+      "hasInquiryOnly": "N",
+      "hasAdmin": "Y"
+    },
+    {
+      "user_id": "rmarsha",
+      "hasMarketing": "Y",
+      "hasNewBusinessUnderwriting": "N",
+      "hasInquiryOnly": "N",
+      "hasAdmin": "Y"
+    },
+    {
+      "user_id": "jramire",
+      "hasMarketing": "N",
+      "hasNewBusinessUnderwriting": "Y",
+      "hasInquiryOnly": "N",
+      "hasAdmin": "N"
+    },
+    {
+      "user_id": "pwatts",
+      "hasMarketing": "Y",
+      "hasNewBusinessUnderwriting": "N",
+      "hasInquiryOnly": "Y",
+      "hasAdmin": "N"
+    },
+    {
+      "user_id": "jhall",
+      "hasMarketing": "N",
+      "hasNewBusinessUnderwriting": "Y",
+      "hasInquiryOnly": "Y",
+      "hasAdmin": "Y"
+    },
+    {
+      "user_id": "apatter",
+      "hasMarketing": "Y",
+      "hasNewBusinessUnderwriting": "Y",
+      "hasInquiryOnly": "Y",
+      "hasAdmin": "Y"
+    }
+  ]
+}
