@@ -1,47 +1,223 @@
 <template>
-  <div class="container">
-    <div class="row">
-        <h3>Users</h3>
-        <ul>
-          <li class="card" v-for="item in items">
+  <div>
+    <form class="bg-gray shadow-none rounded">
+      <!-- Add New Record -->
+      <div>
+        <h3
+          class="text-2xl leading-6 font-medium text-center text-blue-900 px-2 py-3"
+        >
+          Add New Record
+        </h3>
+      </div>
 
-          </li>
-        </ul>
-    </div>
+      <!-- Container for the Form -->
+      <div
+        class="max-w-4xl mx-auto py-8 px-10 bg-white-100 border-l-2 border-blue-800 shadow rounded-lg"
+      >
+        <!-- First Row -->
+        <div class="flex mb-4">
+          <!-- First column -->
+          <div class="w-1/2 px-4">
+            <div>
+              <label
+                for="client_number"
+                class="block text-sm font-medium leading-5 text-gray-700 pb-2"
+              >Client Number</label
+              >
+              <input
+                id="client_number"
+                class="bg-white focus:outline-none focus:shadow-outline border border-gray-300 rounded-lg py-2 px-4 block w-full appearance-none leading-normal"
+                type="text"
+                placeholder="G79552"
+                v-model="newClient.clientNumber"
+              />
+            </div>
+          </div>
+
+          <!-- Second column -->
+          <div class="w-1/2 px-4">
+            <div>
+              <label
+                for="business_name"
+                class="block text-sm font-medium leading-5 text-gray-700 pb-2"
+              >Business Name</label
+              >
+              <input
+                id="business_name"
+                class="bg-white focus:outline-none focus:shadow-outline border border-gray-300 rounded-lg py-2 px-4 block w-full appearance-none leading-normal"
+                type="text"
+                placeholder
+                v-model="newClient.businessName"
+
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- Second Row -->
+        <div class="flex mb-4">
+          <!-- First column -->
+          <div class="w-1/2 px-4">
+            <div>
+              <label
+                for="original_local_office"
+                class="block text-sm font-medium leading-5 text-gray-700 pb-2"
+              >Original Local Office</label
+              >
+              <input
+                id="original_local_office"
+                class="bg-white focus:outline-none focus:shadow-outline border border-gray-300 rounded-lg py-2 px-4 block w-full appearance-none leading-normal"
+                type="text"
+                placeholder
+                v-model="newClient.originalLocalOffice"
+
+              />
+            </div>
+          </div>
+
+          <!-- Second column -->
+          <div class="w-1/2 px-4">
+            <div>
+              <label
+                for="current_local_office"
+                class="block text-sm font-medium leading-5 text-gray-700 pb-2"
+              >Current Local Office</label
+              >
+              <input
+                id="current_local_office"
+                class="bg-white focus:outline-none focus:shadow-outline border border-gray-300 rounded-lg py-2 px-4 block w-full appearance-none leading-normal"
+                type="text"
+                placeholder
+                v-model="newClient.currentLocalOffice"
+
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- Third Row -->
+        <div class="flex mb-4">
+          <!-- First column -->
+          <div class="w-1/2 px-4">
+            <div>
+              <label
+                for="freq_of_deductions"
+                class="block text-sm font-medium leading-5 text-gray-700 pb-2"
+              >Frequency of Deductions</label
+              >
+              <div class="relative">
+                <select
+                  id="freq_of_deductions"
+                  class="block appearance-none w-full border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded-lg leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                >
+                  <option>01 - Annual</option>
+                  <option>02 - Semi-Annual</option>
+                  <option>04 - Quarterly</option>
+                  <option>09 - 9 bills per year</option>
+                  <option>10 - 10 bills per year</option>
+                  <option>12 - Monthly</option>
+                  <option>24 - Semi-Monthly</option>
+                  <option>26 - 26 bills per year</option>
+                  <option>52 - Weekly</option>
+                </select>
+                <div
+                  class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700"
+                >
+                  <svg
+                    class="fill-current h-4 w-4"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Second column -->
+          <div class="w-1/2 px-4">
+            <div>
+              <label
+                for="current_local_office"
+                class="block text-sm font-medium leading-5 text-gray-700 pb-2"
+              >Last Bill Date</label
+              >
+              <input
+                id="lastBillDate"
+                class="bg-white focus:outline-none focus:shadow-outline border border-gray-300 rounded-lg py-2 px-4 block w-full appearance-none leading-normal"
+                type="text"
+                placeholder
+                v-model="newClient.lastBillDate"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- Buttons  -->
+        <div class="pl-4">
+          <div class="flex justify-end">
+            <span class="inline-flex rounded-md shadow-sm">
+              <button
+                type="button"
+                class="py-2 px-4 border border-gray-300 rounded-md text-sm leading-5 font-medium text-gray-700 hover:text-gray-500 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue active:bg-gray-50 active:text-gray-800 transition duration-150 ease-in-out"
+              >
+                Cancel
+              </button>
+            </span>
+            <span class="ml-3 inline-flex rounded-md shadow-sm">
+              <button
+                class="inline-flex justify-center py-2 px-4 border border-transparent text-sm leading-5 font-medium rounded-md text-white bg-blue-900
+                 hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue active:bg-blue-700 transition duration-150 ease-in-out"
+                @click.prevent="addClient"
+              >
+                Save
+              </button>
+            </span>
+          </div>
+        </div>
+
+        <!-- Container closing -->
+      </div>
+
+      <!-- form closing -->
+    </form>
   </div>
 </template>
-
 <script>
-  import Logo from '~/components/Logo.vue'
   import {mapState} from 'vuex'
-  import User from '~/data/models/user'
+  import Client from '~/data/models/client'
 
   export default {
-    components: {
-      Logo
-    },
+    components: {},
     computed: {
-      ...mapState('entities/users')
     },
     data() {
       return {
-        data: null
+        newClient:{
+          clientNumber: '',
+          businessName:'',
+          originalLocalOffice: '',
+          currentLocalOffice: '',
+          lastBillDate: ''
+        }
       }
     },
     async created() {
-      let data = await this.fetchUsers();
-      console.log(data);
-      User.create(data);
     },
     methods: {
-      async testApi() {
-        // Normal usage with axios
-        this.data = (await this.$axios.get('https://ouv6ogvlzj.execute-api.us-east-2.amazonaws.com/v1/')).data;
-      },
-      async fetchUsers() {
-        // Normal usage with axios
-        let data = (await this.$axios.get('http://localhost:5000/users')).data;
-        return data;
+      addClient()
+      {
+        Client.insert({
+          data: this.newClient
+        });
+        this.$axios.post('http://localhost:5000/clients',this.newClient).then((res) => {
+          console.log(res.data)
+        });
+
+
       }
     }
   }

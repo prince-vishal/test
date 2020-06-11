@@ -322,5 +322,77 @@
       "hasInquiryOnly": "Y",
       "hasAdmin": "Y"
     }
+  ],
+  "clients": [
+    {
+      "clientNumber": "I23910",
+      "businessName": "ACME Oliver Ltd",
+      "originalLocalOffice": "IN7510650",
+      "currentLocalOffice": "KY7614447",
+      "lastBillDate": "04/15/1996"
+    },
+    {
+      "clientNumber": "N67669",
+      "businessName": "ACME Brown Inc",
+      "originalLocalOffice": "MO7489515",
+      "currentLocalOffice": "ME4973551",
+      "lastBillDate": "01/13/1973"
+    },
+    {
+      "clientNumber": "Q58032",
+      "businessName": "ACME Singleton Ltd",
+      "originalLocalOffice": "MT8225873",
+      "currentLocalOffice": "SC0202776",
+      "lastBillDate": "03/30/2004"
+    },
+    {
+      "clientNumber": "X88408",
+      "businessName": "ACME Stevens-Hendrix",
+      "originalLocalOffice": "NE0049611",
+      "currentLocalOffice": "NH0639945",
+      "lastBillDate": "04/07/2016"
+    },
+    {
+      "clientNumber": "P69531",
+      "businessName": "ACME Kelley LLC",
+      "originalLocalOffice": "KS6624138",
+      "currentLocalOffice": "NC4821281",
+      "lastBillDate": "01/07/2002"
+    },
+    {
+      "clientNumber": "T87455",
+      "businessName": "ACME Boyd Group",
+      "originalLocalOffice": "WY7734233",
+      "currentLocalOffice": "AK8390663",
+      "lastBillDate": "03/24/1992"
+    },
+    {
+      "clientNumber": "F15990",
+      "businessName": "ACME Jones, Compton and Lewis",
+      "originalLocalOffice": "MO9954390",
+      "currentLocalOffice": "WV8097540",
+      "lastBillDate": "05/09/2003"
+    },
+    {
+      "clientNumber": "I62335",
+      "businessName": "ACME Oneal-Long",
+      "originalLocalOffice": "SC8232559",
+      "currentLocalOffice": "VT2015324",
+      "lastBillDate": "07/28/1973"
+    },
+    {
+      "clientNumber": "G69509",
+      "businessName": "ACME Floyd-Salazar",
+      "originalLocalOffice": "KS8269025",
+      "currentLocalOffice": "IL0847999",
+      "lastBillDate": "10/14/1974"
+    },
+    {
+      "clientNumber": "B87337",
+      "businessName": "ACME Garner, Lee and Torres",
+      "originalLocalOffice": "AZ9375800",
+      "currentLocalOffice": "NC3370996",
+      "lastBillDate": "06/21/1971"
+    }
   ]
 }
